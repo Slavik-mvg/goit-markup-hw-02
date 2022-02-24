@@ -1,13 +1,32 @@
 body {
-  font-family: "Roboto", sans-serif;
- color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
 }
-.hide {display: none}
+.hide {
+  color: transparent;
+  font-size: 0;
+}
+.link {
+  color: #212121;
+  text-decoration: none;
+}
+
 .link:hover,
 .link:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
+.hero-button:hover,
+.hero-button:focus {
+  color: #188CE8;
+}
+
 .hero {
-  background: #2F303A;
-  
+  width: 1600px;
+  height: 600px;
+  color: #000;
+}
+.advantage {
+  background: #212121;
+}
+.advantage-item {
 }
