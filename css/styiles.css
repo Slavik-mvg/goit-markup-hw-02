@@ -1,14 +1,10 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #ffffff;
-}
-.hide {
-  color: transparent;
-  font-size: 0;
-}
-.link {
   color: #212121;
-  text-decoration: none;
+}
+.hide {display: none}
+.link {
+    text-decoration: none;
 }
 
 .link:hover,
