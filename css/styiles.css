@@ -1,28 +1,35 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+
 }
-.hide {display: none}
+.hide {
+  display: none;
+}
 .link {
-    text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .link:hover,
 .link:focus {
   color: #2196f3;
 }
+.hero-button {
+  background-color: #188CE8;
+  color: #FFFFFF;
+  cursor: pointer;
+}
 .hero-button:hover,
 .hero-button:focus {
-  color: #188CE8;
+  background-color: #2196F3;
 }
 
 .hero {
   width: 1600px;
-  height: 600px;
   color: #000;
 }
 .advantage {
-  background: #212121;
 }
-.advantage-item {
+.advantage-item-list {
+  color: #757575;
 }
