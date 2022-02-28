@@ -1,7 +1,11 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+
 }
+.hide {
+  display: none;
+}
+<<<<<<< HEAD
 
 .logo-back {
   color: #2196f3;
@@ -23,6 +27,11 @@ body {
 .link {
   text-decoration: none;
   color: #212121;
+=======
+.link {
+  text-decoration: none;
+  cursor: pointer;
+>>>>>>> 6a18b8d95f8a472efd89aeca069ac5e4d0c288fd
 }
 
 .link:hover,
@@ -30,12 +39,18 @@ body {
   color: #2196f3;
 }
 .hero-button {
+<<<<<<< HEAD
   background-color: #188ce8;
   color: #ffffff;
+=======
+  background-color: #188CE8;
+  color: #FFFFFF;
+>>>>>>> 6a18b8d95f8a472efd89aeca069ac5e4d0c288fd
   cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
+<<<<<<< HEAD
   background-color: #2196f3;
 }
 
@@ -47,14 +62,25 @@ body {
 .button-menu-item:focus {
   background-color: #2196f3;
   color: #ffffff;
+=======
+  background-color: #2196F3;
+>>>>>>> 6a18b8d95f8a472efd89aeca069ac5e4d0c288fd
 }
 
 .hero {
   width: 1600px;
+<<<<<<< HEAD
   background-color: #2f303a;
   color: #ffffff;
 }
 
 .text {
+=======
+  color: #000;
+}
+.advantage {
+}
+.advantage-item-list {
+>>>>>>> 6a18b8d95f8a472efd89aeca069ac5e4d0c288fd
   color: #757575;
 }
