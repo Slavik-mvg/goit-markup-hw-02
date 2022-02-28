@@ -2,27 +2,59 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
 }
-.hide {display: none}
+
+.logo-back {
+  color: #2196f3;
+}
+.logo-all {
+  text-decoration: none;
+  color: #000;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.hide {
+  display: none;
+}
+
 .link {
-    text-decoration: none;
+  text-decoration: none;
+  color: #212121;
 }
 
 .link:hover,
 .link:focus {
   color: #2196f3;
 }
+.hero-button {
+  background-color: #188ce8;
+  color: #ffffff;
+  cursor: pointer;
+}
 .hero-button:hover,
 .hero-button:focus {
-  color: #188CE8;
+  background-color: #2196f3;
+}
+
+.button-menu-item {
+  cursor: pointer;
+  background-color: #f5f4fa;
+}
+.button-menu-item:hover,
+.button-menu-item:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 .hero {
   width: 1600px;
-  height: 600px;
-  color: #000;
+  background-color: #2f303a;
+  color: #ffffff;
 }
-.advantage {
-  background: #212121;
-}
-.advantage-item {
+
+.text {
+  color: #757575;
 }
