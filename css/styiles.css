@@ -9,9 +9,19 @@ body {
 .logo-back {
   color: #2196f3;
 }
-.logo-all {
+.logo {
   text-decoration: none;
   color: #000;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer {
+  color: #ffffff;
+  text-decoration: none;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -28,9 +38,19 @@ body {
   color: #212121;
 }
 
+.link.current {
+  color: #2196f3;
+}
+
+.link-footer:focus,
+.link-footer:hover,
 .link:hover,
 .link:focus {
   color: #2196f3;
+}
+
+.link-footer {
+  text-decoration: none;
 }
 
 .hero-button {
@@ -60,9 +80,27 @@ body {
 }
 
 .text {
-  color: #000;
+  color: #000000;
 }
 
 .advantage-item-list {
   color: #757575;
+}
+
+/* footer */
+footer {
+  background-color: #2f303a;
+}
+
+.link-footer {
+  color: #ffffff;
+  font-style: normal;
+}
+
+.link-footer-mailtel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+ul {
+  list-style: none;
 }
