@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .hide {
@@ -15,8 +16,7 @@ body {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
 .logo-footer {
@@ -25,10 +25,25 @@ body {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
+.site-nav .link,
+.site-nav.mailtel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 .hide {
   display: none;
 }
@@ -57,7 +72,15 @@ body {
   background-color: #188ce8;
   color: #ffffff;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: #2196f3;
@@ -66,6 +89,10 @@ body {
 .button-menu-item {
   cursor: pointer;
   background-color: #f5f4fa;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 .button-menu-item:hover,
 .button-menu-item:focus {
@@ -74,16 +101,41 @@ body {
 }
 
 .hero {
-  width: 1600px;
+  /* width: 1600px; */
   background-color: #2f303a;
   color: #ffffff;
 }
 
-.text {
-  color: #000000;
+.advantage-text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
-.advantage-item-list {
+.advantage-item {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.works .title,
+.commad .title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.projects-list .title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.prjects-description {
+  /* font-weight: 400; */
+  font-size: 16px;
+  line-height: 1.88;
   color: #757575;
 }
 
@@ -95,6 +147,8 @@ footer {
 .link-footer {
   color: #ffffff;
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .link-footer-mailtel {
