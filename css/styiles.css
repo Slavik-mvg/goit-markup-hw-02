@@ -110,6 +110,7 @@ body {
   background-color: var(--accent-buttons-color);
   font-family: inherit;
   font-weight: 500;
+ border:none;
   /* font-size: 16px; */
   line-height: 1.62;
 }
@@ -149,10 +150,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.89;
+  text-align: center;
 }
 
 .command-text {
   color: var(--base-color);
+  text-align: center;
 }
 
 .projects-list .title {
